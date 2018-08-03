@@ -1,0 +1,251 @@
+html {
+    background-color: #f2f2f2;
+}
+
+body {
+    width: 1200px;
+    box-shadow: 0px 5px 15px 0 #00010133;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 0;
+    font-family: PTSans, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    white-space: nowrap;
+    border: 0;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+}
+
+.main-footer-logo img {
+    width: 138px;
+    height: 70px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list a {
+    text-transform: uppercase;
+    font-family: PTSans, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+    color: #81b3d2;
+}
+
+.nav-list a:active {
+    color: #000000;
+    opacity: 0.3;
+}
+
+.index-wrapper-1 h2 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: PTSans, Arial, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.index-wrapper-1 p {
+    padding: 0;
+    margin: 0;
+    font-family: PTSans, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+}
+
+.advantages-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.advantages-list h3 {
+    padding: 0;
+    margin: 0;
+    font-family: PTSans, Arial, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.advantages-list p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 21px;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.condition-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.condition-list h4 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: PTSans, Arial, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 21px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.condition-list p {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: PTSans, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 21px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+}
+
+.booking h3 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: PTSans, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 36px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.booking p {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: PTSans, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+}
+
+.popup-button {
+    box-sizing: border-box;
+    width: 568px;
+    font-family: PTSans, Arial, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding: 33px 0;
+    text-transform: uppercase;
+    background-color: #766357;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.hashtag p {
+    padding: 0;
+    margin: 0;
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.copyright p {
+    padding: 0;
+    margin: 0;
+    font-family: PTSans, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
